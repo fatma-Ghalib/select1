@@ -1,0 +1,48 @@
+body {
+
+    background-color:  lightseagreen;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+  }
+  
+  select {
+   
+      width: 200px;
+      height: 50px;
+    margin-bottom: 1em;
+    margin: 3em;
+    padding: .25em;
+    border: 0;
+    border-bottom: 2px solid currentcolor; 
+    font-weight: bold;
+    letter-spacing: .15em;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+   
+   
+    }
+  
+  
+  .images {
+  
+   
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 15px -15px rgba(#000, .5);}
+  
+.no-selection{
+      display: none;
+      letter-spacing: .15em;
+      font-weight: bold;
+    }
+  .carousel-inner
+{
+text-align: center;
+}
